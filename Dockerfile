@@ -2,7 +2,7 @@
 FROM ubuntu:latest
 LABEL maintainer=Prasana
 RUN apt-get update -y
-RUN apt-get install -y python3-pip python build-essential
+RUN apt-get install -y python3-pip
 COPY . /app
 WORKDIR /app
 RUN pip3 install -r requirements.txt
