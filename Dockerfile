@@ -1,6 +1,6 @@
 # Docker file for Image Deployment
 FROM ubuntu:latest
-LABEL maintainer=ArunKSingh
+LABEL maintainer=Prasana
 RUN apt-get update -y
 RUN apt-get install -y python3-pip python build-essential
 COPY . /app
